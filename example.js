@@ -1,3 +1,8 @@
+/* 这个示例文件展示了直接对 API 发起请求的方法，在实际使用中应当进行一定的封装
+ * sign 方法对构造出来的请求进行签名
+ * sendRequest 方法构造了字符串并发起请求
+ */
+
 var http =  require('http');
 var jsSHA = require('jssha');
 
